@@ -1,10 +1,6 @@
 /**
  * =================================================================== 
  *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
  *  02. base style overrides
@@ -1103,10 +1099,12 @@ header .row {
 }
 header .top-bar {
 	display: block;
+	/* display: inline; */
 	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
+	/* position: static; */
 	left: 90px;
 	top: 0;
 }
