@@ -1091,8 +1091,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- 
  */
+/* 要把mobile navbar寫到intro去 */
+@media only screen and (min-width:768px) {
+	/* PC version no dropdown menu */
+	header {
+		display: none;
+	}
+}
 header {
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
 	min-height: 66px;
 	z-index: 600;
@@ -1103,6 +1110,11 @@ header .row {
 }
 header .top-bar {
 	display: block;
+<<<<<<< Updated upstream
+=======
+	/* display: inline; */
+	z-index: 1;
+>>>>>>> Stashed changes
 	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
