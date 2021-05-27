@@ -1110,11 +1110,8 @@ header .row {
 }
 header .top-bar {
 	display: block;
-<<<<<<< Updated upstream
-=======
 	/* display: inline; */
 	z-index: 1;
->>>>>>> Stashed changes
 	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
