@@ -1,3 +1,8 @@
+.nav__links {
+    margin-right: 4.7rem;
+    /* margin-bottom: 30rem; */
+}
+
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
@@ -5,11 +10,12 @@
 
 .nav__links li a {
     color: white;
+    font-size: 1.3em;
     transition: all 0.3s ease 0s;
 }
 
 .nav__links li a:hover {
-    color: #0088a9
+    color: #1771F1
 }
 
 /* .myhead {
