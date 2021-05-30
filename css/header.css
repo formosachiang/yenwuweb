@@ -18,6 +18,24 @@
     color: #1771F1
 }
 
+@media screen and (max-width:768px) {
+    .nav__links li a {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .nav__links li a {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .nav__links li a {
+        font-size: 0.9em;
+    }
+}
+
 /* .myhead {
     display: flex;
     justify-content: space-between;
